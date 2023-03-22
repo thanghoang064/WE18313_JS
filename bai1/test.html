@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function nhan_vien(ho,ten,ngay_sinh,gioi_tinh){
+            this.ho =ho;
+            this.ngay_sinh= ngay_sinh;
+            this.gioi_tinh=gioi_tinh;
+            this.tinh_tuoi =function(){
+
+            }
+        }
+         var nhan_vien=[];
+         nhan_vien[0]= new nhan_vien("Ngô","Nam",new Date(2004,10,10),"nam")
+
+        // var nv=[];
+        // nv[0]= new nhan_vien("Ngô","Nam",new Date(2004,10,10),"nam")
+        // nv[1]= new nhan_vien("Nguyễn","Nam",new Date(2004,10,10),"nam")
+        // nv[2]= new nhan_vien("Lê","Nam",new Date(2004,10,10),"nam")
+        console.log(nhan_vien[0].ho);
+        // for(let i in nv){
+        //     var t=nv[i];
+        //     // console.log(t);
+        //     for(let x in t){
+        //         console.log(x +":"+ t[x]);
+        //     }
+        // }
+    </script>
+</body>
+</html>
