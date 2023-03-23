@@ -28,3 +28,91 @@ alert(a);
 // hinhchunhat có thuộc tính là chieudai,chieurong
 // co phuong thuc la tinhChuVi,tinhDienTich 
 // hiển thị ra chuvi và diện tích hình chữ nhz
+
+//tạo 3 ddooos tượng giảng viên gồm 3 thuojc tính và 2 phương thức
+let gv1 = {
+  ten:"nguyen van a",//day la thuoc tinh(dac diem cua doi tuong)
+  tuoi : "30",
+  maGv: " ph42792",
+  chieucao:170,
+  cannang:80,
+  toc:"hai mai",
+  tay:"to cha ba",
+  chan:"khong lo",
+  di: function(){//day la phuong thuc(hanh dong cua doi tuong)
+    swal("aaaaaaa");
+  },
+
+  noi: function(){
+    swal("chao cac em");
+  },
+  kiemtra: function(){
+    swal("kh hoc thi chep phat");
+  },
+  an: function(){
+    swal("an toan do ngon");
+  },
+  day: function(){
+    swal("day toan dieu hay");
+  }
+  
+  
+  }
+  let gv2 = {
+    ten:"nguyen van b",//day la thuoc tinh(dac diem cua doi tuong)
+    tuoi : "30",
+    maGv: " ph42792",
+    chieucao:170,
+    cannang:80,
+    toc:"hai mai",
+    tay:"to cha ba",
+    chan:"khong lo",
+    di: function(){//day la phuong thuc(hanh dong cua doi tuong)
+      swal("aaaaaaa");
+    },
+  
+    noi: function(){
+      swal("chao cac em");
+    },
+    kiemtra: function(){
+      swal("kh hoc thi chep phat");
+    },
+    an: function(){
+      swal("an toan do ngon");
+    },
+    day: function(){
+      swal("day toan dieu hay");
+    }
+    
+    
+    }
+    let gv3 = {
+      ten:"nguyen van c",//day la thuoc tinh(dac diem cua doi tuong)
+      tuoi : "30",
+      maGv: " ph42792",
+      chieucao:170,
+      cannang:80,
+      toc:"hai mai",
+      tay:"to cha ba",
+      chan:"khong lo",
+      di: function(){//day la phuong thuc(hanh dong cua doi tuong)
+        swal("aaaaaaa");
+      },
+    
+      noi: function(){
+        swal("chao cac em");
+      },
+      kiemtra: function(){
+        swal("kh hoc thi chep phat");
+      },
+      an: function(){
+        swal("an toan do ngon");
+      },
+      day: function(){
+        swal("day toan dieu hay");
+      }
+      
+      
+      }
+
+
