@@ -20,7 +20,7 @@
 // nếu điểm tb < 6.5 trả về không đạt 
 
 //tạo 1 mảng đối tượng gồm 5 sinh viên
-//hiển thị lương các đối tượng sinh viên có tuổi > 15 và tuổi < 20 
+//hiển thị điểm TB các đối tượng sinh viên có tuổi > 15 và tuổi < 20 
 // đếm xem có bao nhiêu sinh viên đạt
 //tính tổng điểm trung bình
 // của các đối tượng sinh viên có tuổi > 15
