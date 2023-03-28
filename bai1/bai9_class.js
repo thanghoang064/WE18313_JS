@@ -55,6 +55,19 @@ console.log(sum);
 //tạo 1 mảng đối tượng gồm 5 nhân viên
 //hiển thị lương các đối tượng có tuổi > 30 
 // đếm xem có bao nhiêu nhân viên có tuổi > 30 
-//tính trung bình lương của các đối tượng có tuổi > 30
-
-
+swal({
+  title: "Are you sure?",
+  text: "Once deleted, you will not be able to recover this imaginary file!",
+  icon: "warning",
+  buttons: ["hihi","haha"],
+  dangerMode: false,
+})
+.then((h) => {
+  if (willDelete1) {
+    swal("Poof! Your imaginary file has been deleted!", {
+      icon: "success",
+    });
+  } else {
+    swal("Your imaginary file is safe!");
+  }
+});
