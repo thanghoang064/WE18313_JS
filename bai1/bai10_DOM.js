@@ -21,3 +21,22 @@ function thayDoiMau() {
 //css 
 // a[1].style.color = "red"; // thuộc tính style dùng để can thiệp vào css thay đổi màu chữ
 }
+
+function myNut() {
+    // truy xuất dom theo tên class
+    // let b = document.getElementsByClassName('test');
+    // console.log(b[2].outerText);
+    //truy xuất dom theo id 
+    let hoten = document.getElementById('hoten').value; // lấy giá trị từ
+    // input người dùng nhập vào 
+    //swal("ten toi là  "+hoten);
+    let tuoi = document.getElementById('tuoi').value;
+    let result = "<tr><td>Họ tên</td><td>Tuổi</td></tr><tr><td>"+hoten+"</td><td>"+tuoi+"</td></tr>"; // tạo chuỗi bảng html
+    let tinh = document.getElementById('tinh').value;
+    alert(tinh);
+    // chọn 1 hiển thị lên tôi là người hà nội 
+    // chọn 2 hiển thị tôi là người hp
+    //chọn 3 hiển thị tôi là người hưng yên
+    document.getElementById('ketqua').innerHTML = result; //gán chuỗi html chứa bảng vào 
+    // tạo 2 input chiều dài chiều rộng tính diện tích hình chữ nhật 
+}
