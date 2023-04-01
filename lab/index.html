@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Số a</td>
+            <td><input type="text" id="soA"/></td>
+        </tr>
+        <tr>
+            <td>Số b</td>
+            <td><input type="text" id="soB"/></td>
+        </tr>
+        <tr>
+            <td>Biểu thức</td>
+            <td>
+                <select id="bieuthuc">
+                    <option value="1">Cộng</option>
+                    <option value="2">Trừ</option>
+                    <option value="3">Nhân</option>
+                    <option value="4">Chia</option>
+                    <option value="5">Chia lấy dư</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button onclick="tinh()">Tính</button>
+    <table id="thongtin">
+        
+    </table>
+</body>
+<script src="app.js"></script>
+</html>
